@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Venha testar a sua cor</title>
+    <script src="./main.js" defer></script>
+    <!--O defer tem como utilidade permitir o html carregar em conjunto com o js, porém o js só executa após o html ter carregado por completo
+    Isso permite ganho de velocidade na execução do código
+    Carregamos o js no head por padronização, porém o html executa o código de cima para baixo, portanto, se deixarmos no head, as tags
+    não são visíveis sem a utilização do defer-->
+</head>
+<body class="cor-body">
+    <input type="text" id ="cor">
+    <button id="trocar-cor">Trocar cor</button>    <!--O id não pode ser igual, é como se fosse o CPF de uma pessoa, utilizamos
+    para manipular objetos-->
+</body>
+</html>
